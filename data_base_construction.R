@@ -48,3 +48,4 @@ xts_averages <- xts(averages$mean_attendance, order.by = as.Date(averages$date))
 print(xts_averages)
 ts_averages <- as.ts(xts_averages)
 is.ts(ts_averages)
+
