@@ -11,6 +11,7 @@ library(zoo)
 
 
 data <- read_excel("/Users/sarahmehiyddine/Desktop/Cours/Magistère/M1/S2/Économétrie_appliquée /Time_series/Dossier/data.xlsx")
+data <- read_excel("/Users/macbook/Documents/GitHub/time-series-project/data.xlsx")
 
 #On commence par nettoyer la base pour que les observations soient correctes et on crée une nouvelle
 #variable pour différencier l'équipe à domicile de l'équipe à l'extérieure
